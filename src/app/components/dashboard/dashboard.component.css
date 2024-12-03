@@ -1,0 +1,111 @@
+
+.main {
+  flex-grow: 1;
+  padding: 24px 16px 612px 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 788px;
+  height: 1051px;
+  position: relative;
+}
+
+.color-overlay-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(241, 203, 231, 0.25) 20%,
+   rgba(250, 252, 249, 0.25) 10%,
+   rgba(250, 252, 249, 0.25) 30%,
+   rgba(241, 203, 231, 0.25) 20%);
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.item {
+  background-color: #fff;
+  padding: 24px 24px 24px 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 368.5px;
+  height: 272px;
+}
+
+.item .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item .title {
+  margin-top: 26px;
+  font-size: 12px;
+}
+
+.item .header img {
+  background-color: #f7f2ff;
+}
+
+.item .header .wave{
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+.item .header .star{
+ position: relative;
+ top: 4px;
+ left: 240px;
+ border-radius: 100px;
+ padding: 8px 8px 8px 8px;
+ width: 40px;
+ height: 40px;
+}
+
+.item .content {
+  margin-bottom: 10px;
+}
+
+.item .buttons {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.item .buttons .btn-download {
+  padding: 12px 12px 12px 12px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #c6cace;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.item .buttons .btn-view {
+  padding: 12px 12px 12px 12px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #F7F2FF;
+  color: #c6cace;
+  cursor: pointer;
+  width: 55px;
+  height: 40px;
+}
+
+.item .reduce-item{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+

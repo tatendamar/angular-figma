@@ -1,0 +1,19 @@
+.search-bar {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 16px 12px 16px 12px;
+  border: 1px solid #C6CACE;
+  border-radius: 10px;
+}
+
+.search-bar.search-icon::before {
+  content: url("../../../assets/images/search.svg");
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+}
