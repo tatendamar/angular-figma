@@ -132,9 +132,10 @@
 /* Mobile devices */
 @media screen and (max-width: 576px) {
   .main {
-    width: 100%;
+    width: 35%;
     padding: 16px 12px;
     height: auto;
+    margin: 0;
   }
 
   .items {
@@ -142,7 +143,7 @@
   }
 
   .item {
-    width: 100%;
+    width: 35%;
     height: auto;
     padding: 16px;
   }
@@ -165,7 +166,7 @@
   }
 
   .item {
-    width: 100%;
+    width: 50%;
   }
 
   .item .header .star {
@@ -178,6 +179,16 @@
   .main {
     width: 788px;
     height: 1051px;
+  }
+
+  .color-overlay-main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
   .items {
