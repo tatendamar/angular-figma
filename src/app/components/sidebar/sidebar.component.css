@@ -115,6 +115,11 @@ nav ul li a:hover {
     z-index: 999;
   }
 
+  nav {
+    position: relative;
+    z-index: 1;
+  }
+
   .color-overlay {
     position: absolute;
     top: 0;
