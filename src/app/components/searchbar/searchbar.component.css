@@ -13,7 +13,7 @@
 .search-bar.search-icon::before {
   content: url("../../../assets/images/search.svg");
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 20px;
   height: 20px;
 }
