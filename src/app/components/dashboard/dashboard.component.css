@@ -79,22 +79,18 @@
 
 .item .buttons .btn-download {
   padding: 12px 12px 12px 12px;
-  border: none;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   color: #c6cace;
   cursor: pointer;
   width: 90px;
   height: 40px;
-  margin-right: 8px;
+
 }
 
 .item .buttons .btn-view {
   padding: 12px 12px 12px 12px;
-  border: none;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #F7F2FF;
   color: #c6cace;
   cursor: pointer;
