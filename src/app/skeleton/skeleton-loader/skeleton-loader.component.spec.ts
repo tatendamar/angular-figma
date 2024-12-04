@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { SkelletonLoaderComponent } from './skelleton-loader.component';
+import { SkeletonLoaderComponent } from './skeleton-loader.component';
 
-describe('SkelletonLoaderComponent', () => {
-  let component: SkelletonLoaderComponent;
-  let fixture: ComponentFixture<SkelletonLoaderComponent>;
+describe('SkeletonLoaderComponent', () => {
+  let component: SkeletonLoaderComponent;
+  let fixture: ComponentFixture<SkeletonLoaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SkelletonLoaderComponent ]
+      declarations: [ SkeletonLoaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SkelletonLoaderComponent);
+    fixture = TestBed.createComponent(SkeletonLoaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

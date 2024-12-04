@@ -1,11 +1,10 @@
 <div *ngIf="isLoading; else content">
-  <app-skelleton-loader></app-skelleton-loader>
+  <app-skeleton-loader></app-skeleton-loader>
 </div>
 
 
 
 <ng-template #content>
-  <!-- Your actual content goes here -->
   <div class="container">
     <app-sidebar></app-sidebar>
     <app-dashboard></app-dashboard>
