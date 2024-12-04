@@ -15,6 +15,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  pointer-events: none;
   background: linear-gradient(to right,
   rgba(241, 203, 231, 0.25) 0%,
   rgba(241, 203, 231, 0.25) 11.11%,
