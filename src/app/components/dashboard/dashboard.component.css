@@ -67,6 +67,13 @@
   border-radius: 8px;
 }
 
+.text-truncate {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .item .header .star{
  position: relative;
  top: 4px;
