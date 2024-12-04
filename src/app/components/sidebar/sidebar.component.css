@@ -119,18 +119,10 @@ nav ul li a:hover {
 
   nav {
     position: relative;
+    background-color: #ba87f0;
     z-index: 1;
   }
 
-  .color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #D2EBC6;
-    pointer-events: none;
-  }
 
   .show-menu {
     transform: translateX(0);
@@ -161,10 +153,10 @@ nav ul li a:hover {
 /* Tablets */
 @media screen and (min-width: 577px) and (max-width: 991px) {
   .sidebar {
-    display: none;
     width: 240px;
     height: 100vh;
   }
+
 
   .nav-items {
     margin-top: 90px;
