@@ -21,8 +21,10 @@
 
 .logo {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  padding: 16px 0 16px 0;
 }
+
 
 .logo img {
   width: 100px;
