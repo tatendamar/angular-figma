@@ -16,7 +16,6 @@
   bottom: 0;
   background-color: rgba(210, 235, 198, 0.3);
   pointer-events: none;
-
 }
 
 
@@ -82,16 +81,64 @@ nav ul li a:hover {
   line-height: 15px;
 }
 
+.hamburger-menu {
+
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+
 
 
 
 /* Mobile devices */
 @media screen and (max-width: 576px) {
   .sidebar {
-    display: none;
-    width: 100%;
-    height: auto;
-    padding: 12px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+  }
+
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D2EBC6;
+    pointer-events: none;
+  }
+
+  .show-menu {
+    transform: translateX(0);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .nav-items {

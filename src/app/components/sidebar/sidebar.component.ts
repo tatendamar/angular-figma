@@ -14,9 +14,9 @@ export class SidebarComponent {
 
   constructor() { }
 
-  isSidebarOpen = false;
+  isMenuOpen = false;
 
-  toggleSidebar(): void {
-    this.isSidebarOpen = !this.isSidebarOpen;
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
