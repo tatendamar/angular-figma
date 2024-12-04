@@ -29,10 +29,6 @@
   width: 100px;
 }
 
-
-
-
-
 nav ul {
   list-style: none;
   padding: 0;
@@ -86,3 +82,49 @@ nav ul li a:hover {
   line-height: 15px;
 }
 
+
+
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+  }
+
+  .nav-items {
+    margin-top: 60px;
+  }
+
+  .feature {
+    margin-top: 15px;
+    padding: 12px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .sidebar {
+    display: none;
+    width: 240px;
+    height: 100vh;
+  }
+
+  .nav-items {
+    margin-top: 90px;
+  }
+}
+
+/* Desktop and larger screens */
+@media screen and (min-width: 992px) {
+  .sidebar {
+    width: 280px;
+    height: 960px;
+  }
+
+  .nav-items {
+    margin-top: 125px;
+  }
+}

@@ -13,4 +13,10 @@ import { SearchbarComponent } from '../searchbar/searchbar.component';
 export class SidebarComponent {
 
   constructor() { }
+
+  isSidebarOpen = false;
+
+  toggleSidebar(): void {
+    this.isSidebarOpen = !this.isSidebarOpen;
+  }
 }
