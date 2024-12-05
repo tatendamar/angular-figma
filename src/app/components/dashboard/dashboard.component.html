@@ -6,34 +6,39 @@
   </div>
 
   <div class="row items g-4">
-    <div class="col-12 col-sm-12 col-md-4 item mb-2 ms-1">
+    <div class="col-12 col-sm-12 col-md-4 item mb-2 ms-1" *ngFor="let item of items">
       <div class="header d-flex align-items-center justify-content-between">
         <div class="icons-left">
           <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
         </div>
         <div class="icons-right">
-          <img class="star" src="../../assets/images/star.svg" alt="Feature">
-        </div>
+           <span class="star"
+            [class.clicked]="item.isStarred"
+            (click)="toggleStar(item.id)" ></span>
+           </div>
       </div>
       <div class="title">
-        <p>Timbuk2 - 5 days ago</p>
+        <p>{{item.title}}</p>
       </div>
       <div class="content mb-lg-5 mb-md-5 mb-sm-5">
-        <p class="text-truncate">Item 1</p>
+        <p class="text-truncate">{{item.content}}</p>
       </div>
       <div class="buttons d-flex justify-content-center gap-2">
         <button class="btn btn-outline-secondary btn-download px-3">Download</button>
         <button class="btn btn-outline-secondary btn-view px-3">View</button>
       </div>
     </div>
-
+  </div>
+<!--
     <div class="col-12 col-sm-12 col-md-4 item mb-2">
       <div class="header d-flex align-items-center justify-content-between">
           <div class="icons-left">
             <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
           </div>
           <div class="icons-right">
-            <img class="star" src="../../assets/images/star.svg" alt="Feature">
+            <span class="star"
+            [class.clicked]="item.isStarred"
+            (click)="toggleStar(item.id)" ></span>
           </div>
        </div>
 
@@ -56,7 +61,9 @@
           <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
         </div>
         <div class="icons-right">
-          <img class="star" src="../../assets/images/star.svg" alt="Feature">
+          <span class="star"
+          [class.clicked]="item.isStarred"
+          (click)="toggleStar(item.id)" ></span>
         </div>
 
       </div>
@@ -78,7 +85,9 @@
           <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
         </div>
         <div class="icons-right">
-          <img class="star" src="../../assets/images/star.svg" alt="Feature">
+          <span class="star"
+          [class.clicked]="item.isStarred"
+          (click)="toggleStar(item.id)" ></span>
         </div>
       </div>
 
@@ -101,7 +110,9 @@
           <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
         </div>
         <div class="icons-right">
-          <img class="star" src="../../assets/images/star.svg" alt="Feature">
+          <span class="star"
+          [class.clicked]="item.isStarred"
+          (click)="toggleStar(item.id)" ></span>
         </div>
 
       </div>
@@ -124,7 +135,7 @@
           <img class="waves" src="../../assets/images/waves.svg" alt="Feature">
         </div>
         <div class="icons-right">
-          <img class="star" src="../../assets/images/star.svg" alt="Feature">
+          <span class="star"  [class.clicked]="item.isStarred" (click)="toggleStar(item.id)"></span>
         </div>
 
       </div>
@@ -140,6 +151,5 @@
         <button class="btn btn-outline-secondary btn-download px-3">Download</button>
         <button class="btn btn-outline-secondary btn-view px-3">View</button>
       </div>
-    </div>
-  </div>
-</div>
+    </div> -->
+

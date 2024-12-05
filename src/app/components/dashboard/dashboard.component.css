@@ -86,6 +86,19 @@
  background-color: #f7f7f8;
 }
 
+.star::before {
+  content: url('../../../assets/images/star.svg');
+ 
+}
+
+.star.clicked::before {
+  content: url('../../../assets/images/star-after.svg');
+}
+
+.star.clicked {
+  color: #000000;
+  transition: fill 0.2s ease;
+}
 
 
 .text-truncate {
