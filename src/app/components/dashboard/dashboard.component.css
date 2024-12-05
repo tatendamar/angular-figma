@@ -57,6 +57,10 @@
   height: 272px;
 }
 
+.show:hover {
+  cursor: pointer;
+}
+
 .item .header {
   display: flex;
   justify-content: space-between;
@@ -70,6 +74,7 @@
  .waves {
   padding: 8px 8px 8px 8px;
   background-color: #f7f7f8;
+  border-radius: 8px;
 }
 
 
@@ -82,11 +87,17 @@
 }
 
 
+
 .text-truncate {
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.item .title {
+   font-size: 14px;
+   opacity: 0.6;
 }
 
 .item .content {
@@ -102,21 +113,21 @@
    padding: 12px 12px 12px 12px;
   border-radius: 8px;
   background-color: #fff;
-  /* color: #c6cace;
-  cursor: pointer; */
+  color: #c6cace;
+  cursor: pointer;
   width: 90px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 
 }
 
 .item .buttons .btn-view {
-padding: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
   border-radius: 8px;
   color: #793BF2;
-
   border: 1px solid #793BF2;
   width: 55px;
   height: 40px;
@@ -186,7 +197,6 @@ padding: 12px 12px 12px 12px;
     width: 788px;
     height: 1051px;
   }
-
 
 
   .items {
