@@ -11,12 +11,14 @@ import { SearchbarComponent } from '../searchbar/searchbar.component';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
-
-  constructor() { }
-
   isMenuOpen = false;
+  activeLink: string = '';
 
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  setActiveLink(link: string): void {
+    this.activeLink = link;
   }
 }
