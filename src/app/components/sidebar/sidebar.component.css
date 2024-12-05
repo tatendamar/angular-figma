@@ -162,6 +162,12 @@ nav ul li a.active {
     margin-top: 15px;
     padding: 12px;
   }
+
+  .feature img {
+    width: 100%;
+    height: 100%;
+    margin-right: 8px;
+  }
 }
 
 /* Tablets */
@@ -175,6 +181,12 @@ nav ul li a.active {
   .nav-items {
     margin-top: 90px;
   }
+
+  .feature img {
+    width: 100%;
+    height: 100%;
+    margin-right: 8px;
+  }
 }
 
 /* Desktop and larger screens */
@@ -186,5 +198,11 @@ nav ul li a.active {
 
   .nav-items {
     margin-top: 125px;
+  }
+
+  .feature img {
+    width: 100%;
+    height: 100%;
+    margin-right: 8px;
   }
 }
