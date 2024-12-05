@@ -26,9 +26,9 @@
 }
 
 .skeleton-logo {
-  height: 40px;
+  height: 10px;
   width: 100px;
-  margin: 20px auto;
+  /* margin: 10px auto; */
   background: #e0e0e0;
   border-radius: 8px;
 }
@@ -51,6 +51,15 @@
   align-items: center;
   margin-bottom: 16px;
 }
+
+.skeleton-icon-logo {
+  width: 35px;
+  height: 30px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
 
 .skeleton-icon {
   width: 24px;
