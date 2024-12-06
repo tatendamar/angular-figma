@@ -30,11 +30,24 @@
   align-items: center;
 }
 
-.logo-content img {
-  width: 32px;
-  height: 32px;
-  margin-right: -2px;
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: #6941C6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-right: 10px;
 }
+
+.logo-content img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
 
 .logo-content p {
   font-family: 'Manrope', sans-serif;
