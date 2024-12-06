@@ -69,6 +69,7 @@
 .item .title {
   margin-top: 26px;
   font-size: 12px;
+
 }
 
  .waves {
@@ -80,10 +81,11 @@
 
 
 .star {
- border-radius: 100px;
- padding: 8px 8px 8px 8px;
+  border-radius: 50%;
+ padding: 8px;
  fill: #f0eef3;
  background-color: #f7f7f8;
+ justify-content: center;
 }
 
 .star::before {
@@ -102,6 +104,9 @@
 
 
 .text-truncate {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -110,6 +115,8 @@
 
 .item .title {
    font-size: 14px;
+   font-family: 'Manrope', sans-serif;
+   font-weight: 300;
    opacity: 0.6;
 }
 
@@ -123,10 +130,10 @@
 }
 
 .item .buttons .btn-download {
-   padding: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
   border-radius: 8px;
   background-color: #fff;
-  color: #c6cace;
+  color: #272727;
   cursor: pointer;
   width: 90px;
   height: 40px;
@@ -134,12 +141,16 @@
   align-items: center;
   justify-content: center;
   margin-left: auto;
+  font-family: 'Manrope', sans-serif;
+  font-weight:300;
+  font-size: 14px;
 
 }
 
 .item .buttons .btn-view {
   padding: 12px 12px 12px 12px;
   border-radius: 8px;
+  background-color: #efe8fc;
   color: #793BF2;
   border: 1px solid #793BF2;
   width: 55px;
@@ -147,6 +158,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight:300;
+  font-size: 14px;
 }
 
 .item .buttons .btn-view:hover {

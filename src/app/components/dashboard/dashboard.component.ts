@@ -18,8 +18,8 @@ interface Item {
 })
 export class DashboardComponent {
   items: Item[] = [
-    { id: 1, title:"Timbuk2 - 5 days ago", content: "item 1", isStarred: false },
-    { id: 2, title:"Timbuk2 - 5 days ago", content: "item 2", isStarred: false },
+    { id: 1, title:"Timbuk2 - 5 days ago", content: "Item 1", isStarred: false },
+    { id: 2, title:"Timbuk2 - 5 days ago", content: "Item 2", isStarred: false },
     { id: 3, title:"Timbuk2 - 5 days ago",
        content: "Item 3,Item 3, Item 3,Item 3,Item 3,Item 3",
         isStarred: false },

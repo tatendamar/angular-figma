@@ -14,6 +14,12 @@ export class SidebarComponent {
   isMenuOpen = false;
   activeLink: string = '';
 
+  isCollapsed = false;
+
+  toggleSidebar() {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
