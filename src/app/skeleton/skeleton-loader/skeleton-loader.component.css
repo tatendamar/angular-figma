@@ -93,11 +93,11 @@
 }
 
 .skeleton-title-header {
-  height: 16px;
+  height: 5px;
   width: 20%;
   background: #e0e0e0;
   border-radius: 4px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .skeleton-title {
@@ -150,11 +150,21 @@
 
   .items {
     grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
   }
 
   .skeleton-card {
     width: 100%;
     padding: 16px;
+  }
+
+
+  .skeleton-icon-group {
+    display: flex;
+    gap: 45px;
   }
 
 
