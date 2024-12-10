@@ -216,6 +216,11 @@
   .skeleton-card {
     width: 100%;
   }
+
+  .skeleton-icon-group {
+    display: flex;
+    gap: 45px;
+  }
 }
 
 
