@@ -87,22 +87,35 @@
 }
 
 
-
-.star {
+.icons-right {
   border-radius: 50%;
-  padding: 8px;
-  fill: #f0eef3;
-  background-color: #f7f7f8;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8px;
+  fill: #f0eef3;
+  background-color: #f7f7f8;
   width: 32px;
   height: 32px;
+  position: relative;
+}
+
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
 }
 
 .star::before {
   content: url('../../../assets/images/star.svg');
-
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .star.clicked::before {
